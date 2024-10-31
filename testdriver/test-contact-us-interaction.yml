@@ -1,0 +1,32 @@
+version: 4.0.78
+steps:
+  - prompt: Click on "Contact" in the footer or contact link.
+    commands:
+      - command: scroll-until-text
+        text: Contact
+        direction: down
+      - command: hover-text
+        text: Contact
+        description: link in the footer
+        action: click
+  - prompt: Click on "Contact" in the footer or contact link.
+    commands:
+      - command: hover-image
+        description: menu icon in the header
+        action: click
+      - command: scroll-until-text
+        text: Contact
+        direction: down
+      - command: hover-text
+        text: Contact
+        description: link in the menu
+        action: click
+  - prompt: Click on "Contact" in the footer or contact link.
+    commands:
+      - command: scroll-until-text
+        text: Contact
+        direction: down
+      - command: hover-text
+        text: Contact
+        description: link in the footer
+        action: click
