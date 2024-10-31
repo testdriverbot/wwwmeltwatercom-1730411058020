@@ -1,0 +1,14 @@
+version: 4.0.78
+steps:
+  - prompt: Scroll to the footer to see additional links.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll to the footer to see additional links.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll to the footer to see additional links.
+    commands:
+      - command: scroll
+        direction: down
