@@ -1,0 +1,20 @@
+version: 4.0.78
+steps:
+  - prompt: Click on "See More" in the announcement banner.
+    commands:
+      - command: hover-text
+        text: See More
+        description: link in the announcement banner
+        action: click
+  - prompt: Click on "See More" in the announcement banner.
+    commands:
+      - command: hover-text
+        text: See More
+        description: link in the announcement banner
+        action: click
+  - prompt: Click on "See More" in the announcement banner.
+    commands:
+      - command: hover-text
+        text: See More
+        description: link in the announcement banner
+        action: click
