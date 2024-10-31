@@ -1,0 +1,24 @@
+version: 4.0.78
+steps:
+  - prompt: Click on "Customers" in the top menu.
+    commands:
+      - command: hover-text
+        text: Customers
+        description: link in the top menu
+        action: click
+  - prompt: Click on "Customers" in the top menu.
+    commands:
+      - command: hover-text
+        text: Customers
+        description: link in the top menu
+        action: click
+      - command: wait
+        timeout: 2000
+  - prompt: Click on "Customers" in the top menu.
+    commands:
+      - command: hover-text
+        text: Customers
+        description: link in the top menu
+        action: click
+      - command: wait
+        timeout: 2000
