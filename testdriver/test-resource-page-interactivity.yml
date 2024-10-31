@@ -1,0 +1,12 @@
+version: 4.0.78
+steps:
+  - prompt: Click on "Resources" in the main navigation.
+    commands:
+      - command: hover-text
+        text: Resources
+        description: main navigation link
+        action: click
+  - prompt: Assert that educational content or downloads are available.
+    commands:
+      - command: assert
+        expect: educational content such as Academy or Community is visible
