@@ -1,0 +1,28 @@
+version: 4.0.78
+steps:
+  - prompt: Assert the webpage loads and the logo is visible.
+    commands:
+      - command: hover-text
+        text: Meltwater
+        description: logo text on the webpage
+        action: hover
+      - command: assert
+        expect: the logo is visible
+  - prompt: Assert the main navigation links are visible.
+    commands:
+      - command: hover-text
+        text: Our Suite
+        description: main navigation link on the webpage
+        action: hover
+      - command: assert
+        expect: the main navigation links are visible
+  - prompt: >-
+      Assert the main call to action is prominently displayed.  # Use the
+      content of the file from the environment
+    commands:
+      - command: hover-text
+        text: VIEW PRICING
+        description: main call to action button on the webpage
+        action: hover
+      - command: assert
+        expect: the main call to action is prominently displayed
